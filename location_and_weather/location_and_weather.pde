@@ -12,7 +12,7 @@ void setup() {
   size(displayWidth, displayHeight);
   orientation(LANDSCAPE);
   textAlign(CENTER, CENTER);
-  textSize(36);
+  textSize(34);
 }
 
 void draw() {
@@ -40,7 +40,7 @@ void draw() {
     text(weather, width/2, 0, width/2, height);  
    
    if(wimage!="")
-    image(loadImage(wimage, "gif"), width/2, height/2, 100, 100);
+    image(loadImage(wimage, "gif"), width/2, height*2/3, width/10, width/10);
   }
 }
 
